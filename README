@@ -1,3 +1,25 @@
+This repository contains a constraint based graphics module for Picat using IUP.
+
+This program is currently only supported on 64-bit Linux systems.
+
+The first step to compile is to download and install the IUP and CD binaries from: 
+http://sourveforge.net/projects/iup/files
+http://sourveforge.net/projects/cd/files
+
+These two installation can be completed by running the installation script as sudo and hitting enter when prompted.
+
+>sudo ./install
+
+Then some header files of IUP and CD need to added to the include folder or a path to them must be added to the bash profile. The header files are iup.h, iupkey.h, and iupdef.h from IUP and cd.h and cdiup.h from CD.
+
+Then the program can be compiled with 
+
+>make -f Makefile.picat.linux64
+
+
+
+##Picat
+
 
 Picat is a simple, and yet powerful, logic-based
 multi-paradigm programming language aimed for
