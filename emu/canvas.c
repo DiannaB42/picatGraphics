@@ -10,6 +10,7 @@
 
 #define PICAT_ERROR -1
 
+
 void setFont(int);
 void setAlign(int);
 void setFontSize(int);
